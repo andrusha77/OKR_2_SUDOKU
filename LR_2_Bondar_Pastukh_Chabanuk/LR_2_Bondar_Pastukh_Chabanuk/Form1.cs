@@ -249,5 +249,111 @@ namespace LR_2_Bondar_Pastukh_Chabanuk
 
             return true;
         }
+
+
+        private void новаГраToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            arr = new int?[9, 9];
+
+            foreach (TextBox tb in tbArr)
+            {
+                tb.Text = "";
+                tb.BackColor = SystemColors.Window;
+                tb.ForeColor = SystemColors.Highlight;
+                tb.ReadOnly = false;
+            }
+
+            InitBoard();
+        }
+
+        private void відкритиToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                BinaryReader file = null;
+
+                try
+                {
+                    file = new BinaryReader(new FileStream(openFileDialog.FileName, FileMode.Open));
+
+                    arr = new int?[9, 9];
+                    for (int i = 0; i < 9; ++i)
+                    {
+                        for (int j = 0; j < 9; ++j)
+                        {
+                            int value = file.ReadInt32();
+                            arr[i, j] = (value == 0 ? (int?)null : (int?)value);
+                            tbArr[i, j].Text = (value == 0 ? "" : value.ToString());
+                        }
+                    }
+
+                    bool win = true;
+                    for (int i = 0; i < 9; ++i)
+                    {
+                        for (int j = 0; j < 9; ++j)
+                        {
+                            bool value = file.ReadBoolean();
+                            tbArr[i, j].ReadOnly = value;
+                            tbArr[i, j].ForeColor = (value ? SystemColors.WindowText : SystemColors.Highlight);
+                            tbArr[i, j].BackColor = SystemColors.Window;
+
+                            if (!value)
+                                win = false;
+                        }
+                    }
+
+                    if (win)
+                        foreach (TextBox tb in tbArr)
+                            tb.BackColor = Color.MediumSeaGreen;
+                }
+                catch
+                { }
+                finally
+                {
+                    file?.Close();
+                }
+            }
+        }
+
+        private void зберегтиToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                BinaryWriter file = null;
+
+                try
+                {
+                    file = new BinaryWriter(new FileStream(saveFileDialog.FileName, FileMode.Create));
+
+                    foreach (int? value in arr)
+                        if (value == null)
+                            file.Write(0);
+                        else
+                            file.Write((int)value);
+
+                    foreach (TextBox tb in tbArr)
+                        file.Write(tb.ReadOnly);
+                }
+                catch
+                { }
+                finally
+                {
+                    file?.Close();
+                }
+            }
+        }
+
+        private void вихідToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
+
 }
