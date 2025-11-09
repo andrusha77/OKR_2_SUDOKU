@@ -1041,6 +1041,7 @@
             this.новаГраToolStripMenuItem.Name = "новаГраToolStripMenuItem";
             this.новаГраToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.новаГраToolStripMenuItem.Text = "Нова гра";
+
             // 
             // відкритиToolStripMenuItem
             // 
@@ -1048,6 +1049,7 @@
             this.відкритиToolStripMenuItem.Name = "відкритиToolStripMenuItem";
             this.відкритиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.відкритиToolStripMenuItem.Text = "Відкрити";
+
             // 
             // зберегтиToolStripMenuItem
             // 
@@ -1055,6 +1057,7 @@
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
             this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
+
             // 
             // toolStripMenuItem1
             // 
@@ -1069,6 +1072,7 @@
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
             this.вихідToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.вихідToolStripMenuItem.Text = "Вихід";
+
             // 
             // Form1
             // 
