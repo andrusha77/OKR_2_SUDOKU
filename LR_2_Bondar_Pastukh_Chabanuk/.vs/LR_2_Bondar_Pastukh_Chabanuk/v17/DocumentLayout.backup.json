@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\",
+  "WorkspaceRootPath": "C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|c:\\okr2lab\\okr_2_sudoku\\lr_2_bondar_pastukh_chabanuk\\lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|c:\\users\\bonda\\desktop\\okr\\okr_2_sudoku\\lr_2_bondar_pastukh_chabanuk\\lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|solutionrelative:lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D43BDA8-96F9-4C67-A81C-B7064450C13B}|LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk.csproj|solutionrelative:lr_2_bondar_pastukh_chabanuk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +22,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
               "RelativeDocumentMoniker": "LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
-              "ToolTip": "C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
+              "ToolTip": "C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
               "RelativeToolTip": "LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAApwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
               "RelativeDocumentMoniker": "LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs",
-              "ToolTip": "C:\\OKR2Lab\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\bonda\\Desktop\\OKR\\OKR_2_SUDOKU\\LR_2_Bondar_Pastukh_Chabanuk\\LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs [Design]",
               "RelativeToolTip": "LR_2_Bondar_Pastukh_Chabanuk\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T14:08:21.923Z",
