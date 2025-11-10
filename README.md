@@ -1,1 +1,1 @@
-Logic works correclty
+#logic works correctly
