@@ -1041,7 +1041,7 @@
             this.новаГраToolStripMenuItem.Name = "новаГраToolStripMenuItem";
             this.новаГраToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.новаГраToolStripMenuItem.Text = "Нова гра";
-
+            this.новаГраToolStripMenuItem.Click += new System.EventHandler(this.новаГраToolStripMenuItem_Click);
             // 
             // відкритиToolStripMenuItem
             // 
@@ -1049,7 +1049,7 @@
             this.відкритиToolStripMenuItem.Name = "відкритиToolStripMenuItem";
             this.відкритиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.відкритиToolStripMenuItem.Text = "Відкрити";
-
+            this.відкритиToolStripMenuItem.Click += new System.EventHandler(this.відкритиToolStripMenuItem_Click);
             // 
             // зберегтиToolStripMenuItem
             // 
@@ -1057,7 +1057,7 @@
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
             this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
-
+            this.зберегтиToolStripMenuItem.Click += new System.EventHandler(this.зберегтиToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -1072,7 +1072,7 @@
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
             this.вихідToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.вихідToolStripMenuItem.Text = "Вихід";
-
+            this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
             // Form1
             // 
